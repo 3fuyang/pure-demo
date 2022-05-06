@@ -1,0 +1,26 @@
+{
+  "name": "pure-demo",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview --port 5050",
+    "typecheck": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "@luxdamore/vue-css-doodle": "^1.0.1",
+    "pinia": "^2.0.13",
+    "pinia-plugin-persist": "^1.0.0",
+    "vue": "^3.2.33",
+    "vue-router": "^4.0.14"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.27",
+    "@vitejs/plugin-vue": "^2.3.1",
+    "@vue/tsconfig": "^0.1.3",
+    "sass": "^1.51.0",
+    "typescript": "~4.6.3",
+    "vite": "^2.9.5",
+    "vue-tsc": "^0.34.7"
+  }
+}
