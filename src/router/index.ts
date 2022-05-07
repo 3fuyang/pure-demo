@@ -6,13 +6,17 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'demo',
+      redirect: '/pinia'
+    },
+    {
+      path: '/pinia',
+      name: 'pinia',
       component: DemoView
     },
     {
       path: '/css',
       name: 'css',
-      component: () => import('@/views/CSS.vue')
+      component: () => import('@/views/CSSDemo.vue')
     },    
   ]
 })

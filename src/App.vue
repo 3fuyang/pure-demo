@@ -1,11 +1,19 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
+import TopNav from './components/TopNav.vue'
 import 'css-doodle'
+
+function updateDoodle (e: Event) {
+  (e.target as any).update()
+}
 </script>
 
 <template>
+  <top-nav/>
   <RouterView class="view"/>
-  <css-doodle class="doodle">
+  <css-doodle
+    class="doodle"
+    @click="updateDoodle">
     :doodle { @grid: 1x35 / 100vw 100vh; } 
     :container { 
         background: #ffcabb; 
@@ -75,6 +83,7 @@ body::after {
 }
 .doodle {
   position: relative;
+  cursor: pointer;
 }
 .view {
   position: absolute;

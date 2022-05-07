@@ -14,7 +14,7 @@ import RandomAnimation from '@/components/css-demos/RandomAnimation.vue'
 
 <style scoped lang="scss">
 .root-wrapper {
-  width: 70%;
+  width: 80em;
   display: flex;
   justify-content: center;
   padding: 1em;

@@ -27,10 +27,11 @@
   display: flex;
 }
 
-li {
+.list li {
   margin: 0 10px;
   animation-name: float;
   animation-iteration-count: infinite;
+  color: hsl(40, 90%, 50%);
 }
 
 @for $i from 1 to 11 {
