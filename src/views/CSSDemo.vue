@@ -2,6 +2,7 @@
 import WaveText from '@/components/css-demos/WaveText.vue'
 import BasicAnimation from '@/components/css-demos/BasicAnimation.vue'
 import RandomAnimation from '@/components/css-demos/RandomAnimation.vue'
+import BubbleButton from '@/components/css-demos/BubbleButton.vue'
 </script>
 
 <template>
@@ -9,6 +10,7 @@ import RandomAnimation from '@/components/css-demos/RandomAnimation.vue'
     <wave-text>Mix-blend-mode</wave-text>
     <basic-animation>Basic Animation</basic-animation>
     <random-animation/>
+    <BubbleButton/>
   </main>
 </template>
 

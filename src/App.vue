@@ -64,7 +64,8 @@ function updateDoodle (e: Event) {
 html, body {
   margin: 0;
   height: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -80,6 +81,8 @@ body::after {
     height: 8vh;
     border-radius: 50%;
     box-shadow: 0 0 20px 2px rgba(253, 220, 189, 0.9);
+    -webkit-appearance: none;
+    appearance: none;    
 }
 .doodle {
   position: relative;
