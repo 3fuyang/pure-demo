@@ -3,6 +3,7 @@ import WaveText from '@/components/css-demos/WaveText.vue'
 import BasicAnimation from '@/components/css-demos/BasicAnimation.vue'
 import RandomAnimation from '@/components/css-demos/RandomAnimation.vue'
 import BubbleButton from '@/components/css-demos/BubbleButton.vue'
+import BallLoading from '@/components/css-demos/BallLoading.vue'
 </script>
 
 <template>
@@ -10,7 +11,8 @@ import BubbleButton from '@/components/css-demos/BubbleButton.vue'
     <wave-text>Mix-blend-mode</wave-text>
     <basic-animation>Basic Animation</basic-animation>
     <random-animation/>
-    <BubbleButton/>
+    <bubble-button/>
+    <ball-loading/>
   </main>
 </template>
 
@@ -23,8 +25,6 @@ import BubbleButton from '@/components/css-demos/BubbleButton.vue'
   box-sizing: border-box;
   overflow: auto;
   flex-wrap: wrap;
-  & > div {
-    margin-left: 1em;
-  }
+  gap: 1em;
 }
 </style>
