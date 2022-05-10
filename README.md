@@ -6,7 +6,7 @@ Demo Live: [http://106.15.78.201:8083/](http://106.15.78.201:8083/)
 
 Please check:
 
-+ [iCSS](`https://github.com/chokcoco/iCSS`)
++ [iCSS](https://github.com/chokcoco/iCSS)
 + [css-doodle](https://css-doodle.com/)
 + [CSS-Inspriration](https://chokcoco.github.io/CSS-Inspiration/#/)
 
