@@ -53,6 +53,7 @@ $button-bg: $fuschia;
   cursor: pointer;
   position: relative;
   box-shadow: 0 0 .9em .1em hsl(0, 90%, 70%);
+  transition: transform 1,5s;
 
   &:focus {
     outline: 0;
@@ -100,7 +101,7 @@ $button-bg: $fuschia;
   }
 
   &:active {
-    transform: scale(0.9);
+    transform: scale(0.95);
     background-color: darken($button-bg, 5%);
     box-shadow: 0 2px 25px rgba(255, 0, 130, 0.2);    
   }

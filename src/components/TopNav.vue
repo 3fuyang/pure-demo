@@ -9,12 +9,13 @@
       @click="$router.push('/pinia')">PiniaPluginPersist</button>    
     <button
       class="btn"
-      @click="$router.push('/css')">To CSS</button>
+      @click="$router.push('/css-animation')">CSS Animation</button>
   </div>
 </template>
 
 <style scoped>
 .top-wrapper {
+  max-height: 15vh;
   font-size: 1.2rem;
   height: 2em;
   display: flex;

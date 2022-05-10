@@ -42,8 +42,9 @@ const { counterPersist, doubleCountPersist } = storeToRefs(counterPersistStore)
   </main>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 .demo-wrapper {
+  max-height: 50vh;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -52,6 +53,22 @@ const { counterPersist, doubleCountPersist } = storeToRefs(counterPersistStore)
   border-radius: .3em;
   background-color: rgb(255, 255, 255, .8);
   transition: box-shadow .1s linear .1s;
+  background-attachment: fixed;
+  overflow: auto;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    backdrop-filter: blur(5px);
+    z-index: -10;
+  }
+  & > * {
+    margin: 0;
+    margin-top: 1em;
+  }
 }
 .pinia-title {
   margin: 0;
@@ -60,11 +77,4 @@ const { counterPersist, doubleCountPersist } = storeToRefs(counterPersistStore)
 .demo-wrapper:hover {
   box-shadow: .1em .1em .5em  #4d4280;
 }
-.demo-wrapper p {
-  margin: 0;
-}
-.demo-wrapper div {
-  margin: 1em 0;
-}
-
 </style>

@@ -14,9 +14,9 @@ const router = createRouter({
       component: DemoView
     },
     {
-      path: '/css',
-      name: 'css',
-      component: () => import('@/views/CSSDemo.vue')
+      path: '/css-animation',
+      name: 'css-animation',
+      component: () => import('@/views/CSSAnimation.vue')
     },    
   ]
 })
