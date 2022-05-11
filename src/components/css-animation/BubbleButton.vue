@@ -53,7 +53,7 @@ $button-bg: $fuschia;
   cursor: pointer;
   position: relative;
   box-shadow: 0 0 .9em .1em hsl(0, 90%, 70%);
-  transition: transform 1,5s;
+  transition: transform .5s;
 
   &:focus {
     outline: 0;
@@ -97,23 +97,22 @@ $button-bg: $fuschia;
     radial-gradient(circle, $button-bg 20%, transparent 20%),
     radial-gradient(circle, $button-bg 20%, transparent 20%),
     radial-gradient(circle, $button-bg 20%, transparent 20%);
-  background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 10% 10%, 20% 20%;    
+    background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 10% 10%, 20% 20%;    
   }
 
   &:active {
-    transform: scale(0.95);
-    background-color: darken($button-bg, 5%);
-    box-shadow: 0 2px 25px rgba(255, 0, 130, 0.2);    
+    transform: scale(0.75);
+    background-color: darken($button-bg, 5%);   
   }
 
   &.animate {
     &::before{
       display: block;
-      animation: topBubbles ease-in-out 0.75s forwards;
+      animation: topBubbles ease-in-out 0.6s forwards;
     }
     &::after{
       display: block;
-      animation: bottomBubbles ease-in-out 0.75s forwards;
+      animation: bottomBubbles ease-in-out 0.6s forwards;
     }    
   }
 }

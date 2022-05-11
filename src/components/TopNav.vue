@@ -10,6 +10,9 @@
     <button
       class="btn"
       @click="$router.push('/css-animation')">CSS Animation</button>
+    <button
+      class="btn"
+      @click="$router.push('/photo-wall')">Photo Wall</button>      
   </div>
 </template>
 

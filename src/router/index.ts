@@ -17,7 +17,12 @@ const router = createRouter({
       path: '/css-animation',
       name: 'css-animation',
       component: () => import('@/views/CSSAnimation.vue')
-    },    
+    },
+    {
+      path: '/photo-wall',
+      name: 'photo-wall',
+      component: () => import('@/views/PhotoWall.vue')
+    }
   ]
 })
 
