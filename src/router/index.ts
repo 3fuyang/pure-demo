@@ -22,6 +22,11 @@ const router = createRouter({
       path: '/photo-wall',
       name: 'photo-wall',
       component: () => import('@/views/PhotoWall.vue')
+    },
+    {
+      path: '/vue-debug',
+      name: 'vue-debug',
+      component: () => import('@/views/InfiniteUpdate.vue')
     }
   ]
 })

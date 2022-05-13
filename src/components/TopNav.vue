@@ -12,7 +12,10 @@
       @click="$router.push('/css-animation')">CSS Animation</button>
     <button
       class="btn"
-      @click="$router.push('/photo-wall')">Photo Wall</button>      
+      @click="$router.push('/photo-wall')">Photo Wall</button>     
+    <button
+      class="btn"
+      @click="$router.push('/vue-debug')">Vue Debug</button>      
   </div>
 </template>
 
