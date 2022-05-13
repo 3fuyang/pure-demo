@@ -58,44 +58,44 @@ $count: 8;
   &:nth-child(1) {
     grid-column: 1;
     grid-row: 1 / 3;
-    background-image: url('../../public/images/1.jpg');
+    background-image: url('../../images/1.jpg');
   }
   &:nth-child(2) {
     grid-column: 2;
     grid-row: 1 / 4;
-    background-image: url('../../public/images/2.jpg');
+    background-image: url('../../images/2.jpg');
     background-position: center;    
   }
   &:nth-child(3) {
     grid-column: 3;
     grid-row: 1 / 5;
-    background-image: url('../../public/images/3.jpg');    
+    background-image: url('../../images/3.jpg');    
   }
   &:nth-child(4) {
     grid-column: 4;
     grid-row: 1 / 6;
-    background-image: url('../../public/images/4.jpg');
+    background-image: url('../../images/4.jpg');
     background-position: center; 
   }
   &:nth-child(5) {
     grid-column: 1;
     grid-row: 3 / 9;
-    background-image: url('../../public/images/5.jpg');    
+    background-image: url('../../images/5.jpg');    
   }
   &:nth-child(6) {
     grid-column: 2;
     grid-row: 4 / 9;
-    background-image: url('../../public/images/6.jpg');    
+    background-image: url('../../images/6.jpg');    
   }
   &:nth-child(7) {
     grid-column: 3;
     grid-row: 5 / 9;
-    background-image: url('../../public/images/7.jpg');    
+    background-image: url('../../images/7.jpg');    
   }
   &:nth-child(8) {
     grid-column: 4;
     grid-row: 6 / 9;
-    background-image: url('../../public/images/8.jpg');
+    background-image: url('../../images/8.jpg');
     background-position: center;
     background-size: contain;
   }  

@@ -15,7 +15,10 @@
       @click="$router.push('/photo-wall')">Photo Wall</button>     
     <button
       class="btn"
-      @click="$router.push('/vue-debug')">Vue Debug</button>      
+      @click="$router.push('/vue-debug')">Vue Debug</button>   
+    <button
+      class="btn"
+      @click="$router.push('/rtf')">Rich Text Format</button>         
   </div>
 </template>
 

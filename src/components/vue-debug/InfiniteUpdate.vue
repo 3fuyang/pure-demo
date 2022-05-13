@@ -19,7 +19,7 @@ const goodInfo = ref<GoodInfo | null>({
 onBeforeUpdate(() => {
   goodInfo.value = {
     id: '1',
-    title: '标题',
+    title: '标题一',
     price: 10.00
   }
 })
@@ -36,6 +36,7 @@ onRenderTriggered((e) => {
 
 <template>
   <div class="wrapper">
+    <p>对引用类型的响应式数据，直接修改引用导致冗余的RenderTrack</p>
     <p>{{goodInfo}}</p>
     <p>{{updateTrigger}}</p>
     <btn

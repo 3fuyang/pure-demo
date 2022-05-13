@@ -26,7 +26,12 @@ const router = createRouter({
     {
       path: '/vue-debug',
       name: 'vue-debug',
-      component: () => import('@/views/InfiniteUpdate.vue')
+      component: () => import('@/components/vue-debug/InfiniteUpdate.vue')
+    },
+    {
+      path: '/rtf',
+      name: 'rtf',
+      component: () => import('@/views/RTF.vue')
     }
   ]
 })
