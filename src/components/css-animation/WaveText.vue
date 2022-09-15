@@ -18,7 +18,9 @@
   color: #000;
   overflow: hidden;
   padding: .3em .8em;
-  &::before, &::after {
+
+  &::before,
+  &::after {
     content: "";
     position: absolute;
     top: -30.625em;
@@ -30,11 +32,12 @@
     background: rgba(3, 169, 244, .85);
     animation: rotate 10s infinite linear;
     z-index: 1;
-    mix-blend-mode: lighten;  
+    mix-blend-mode: lighten;
   }
+
   &::after {
     border-radius: 43% 47% 44% 48%;
-    animation: rotate 10s infinite .5s linear; 
+    animation: rotate 10s infinite .5s linear;
   }
 }
 
@@ -42,6 +45,7 @@
   0% {
     transform: translate(-50%, -50%) rotate(0);
   }
+
   100% {
     transform: translate(-50%, -50%) rotate(360deg);
   }

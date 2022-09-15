@@ -16,27 +16,24 @@ const { counterPersist, doubleCountPersist } = storeToRefs(counterPersistStore)
   <main class="demo-wrapper">
     <p class="pinia-title">Pinia 持久存储 Demo</p>
     <p>
-      普通Store中的state: counter 为: {{counter}}, getter: doubleCount 为: {{doubleCount}}.
+      普通Store中的state: counter 为: {{ counter }}, getter: doubleCount 为: {{ doubleCount }}.
     </p>
     <div>
-      Action: 
-      <button
-        @click="counterStore.increment">
+      Action:
+      <button @click="counterStore.increment">
         Increment
       </button>
     </div>
     <p>
-      持存Store中的state: counterPersist 为: {{counterPersist}}, getter: doubleCountPersist 为: {{doubleCountPersist}}.
+      持存Store中的state: counterPersist 为: {{ counterPersist }}, getter: doubleCountPersist 为: {{ doubleCountPersist }}.
     </p>
     <div>
-      Action: 
-      <button
-        @click="counterPersistStore.increment">
+      Action:
+      <button @click="counterPersistStore.increment">
         Increment
       </button>
     </div>
-    <button
-      @click="$router.go(0)">
+    <button @click="$router.go(0)">
       Reflash
     </button>
   </main>
@@ -55,6 +52,7 @@ const { counterPersist, doubleCountPersist } = storeToRefs(counterPersistStore)
   transition: box-shadow .1s linear .1s;
   background-attachment: fixed;
   overflow: auto;
+
   &::before {
     content: "";
     position: absolute;
@@ -65,16 +63,19 @@ const { counterPersist, doubleCountPersist } = storeToRefs(counterPersistStore)
     backdrop-filter: blur(5px);
     z-index: -10;
   }
-  & > * {
+
+  &>* {
     margin: 0;
     margin-top: 1em;
   }
 }
+
 .pinia-title {
   margin: 0;
   font-size: 1.2rem;
 }
+
 .demo-wrapper:hover {
-  box-shadow: .1em .1em .5em  #4d4280;
+  box-shadow: .1em .1em .5em #4d4280;
 }
 </style>

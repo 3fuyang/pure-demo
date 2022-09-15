@@ -26,6 +26,10 @@ onMounted(() => {
 </template>
 
 <style scoped lang="scss">
+h2 {
+  letter-spacing: 1px;
+  color: #666;
+}
 .wrapper {
   background-color: white;
   padding: 1em;

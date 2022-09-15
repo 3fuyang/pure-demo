@@ -18,7 +18,7 @@
       @click="$router.push('/vue-debug')">Vue Debug</button>   
     <button
       class="btn"
-      @click="$router.push('/rtf')">Rich Text Format</button>         
+      @click="$router.push('/rtf')">Rich Text Format</button>
   </div>
 </template>
 
