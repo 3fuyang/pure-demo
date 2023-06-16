@@ -2,8 +2,6 @@
 
 This is a demo consisting of some useful pure f2e tricks, **collecting from the Internet.**
 
-Demo Live: [http://106.15.78.201:8083/](http://106.15.78.201:8083/)
-
 Please check:
 
 + [iCSS](https://github.com/chokcoco/iCSS)
